@@ -29,7 +29,7 @@ int main() {
 	#ifdef _WIN32
 		system("cls");
 	#elif __linux__
-		std::cout << "\033c"
+		std::cout << "\033c";
 	#endif
 	std::string eod;
 	std::cout << "Do you want to encrypt or decrypt a message (e/d) : "; std::getline(std::cin, eod);
